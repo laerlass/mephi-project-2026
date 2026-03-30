@@ -1,0 +1,446 @@
+    1  sudo apt update
+    2  sudo apt install python3 python3-pip
+    3  pip3 install notebook
+    4  jupiter --version
+    5  apt-get install git
+    6  y
+    7  apt-get install git
+    8  sudo apt install git
+    9  git version
+   10  git config --global user.name "laerlass"
+   11  git config --global user.email ilchenko.box@gmail.com
+   12  cat ~/.gitcongig
+   13  cat ~/.gitconfig
+   14  ssh-keygen
+   15  ls -a ~/.ssh
+   16  cat id_ed25519.pub
+   17  cd ~/.ssh
+   18  cat id_ed25519.pub
+   19  pwd
+   20  ..
+   21  cd ..
+   22  cd M25
+   23  mkdir 1
+   24  cd 1
+   25  mkdir Python
+   26  cd Dython
+   27  cd Python
+   28  mkdir example
+   29  cd example
+   30  git init
+   31  echo 'Hello, Python!' > README.md
+   32  echo 'Ilchenko Vladislav' > PEOPLE.md
+   33  git status
+   34  git add README.md
+   35  git status
+   36  git commit -m 'add README.md'
+   37  git status
+   38  git clone git@github.com:laerlass/example-git.git
+   39  git pull --rebase
+   40  git clone git@github.com:laerlass/example-git.git
+   41  rm PEOPLE.md
+   42  git status
+   43  echo 'Ilchenko Vladislav' > PEOPLE.md
+   44  git add PEOPLE.md
+   45  git commit
+   46  git commit -m 'add People.md'
+   47  git status
+   48  rm PEOPLE.md
+   49  git status
+   50  git commit -m 'удаляем PEOPLE.md'
+   51  python -m pip --version
+   52  python3 -m pip --version
+   53  python3 -m pip install --upgrade --user pip
+   54  python3 -m pip --version
+   55  sudo apt install python3-pip
+   56  sudo apt install python3-poetry
+   57  cd ..
+   58  git clone git@github.com:laerlass/project1_Ilchenko_Vladislav_M25-555.git
+   59  cd project1_Ilchenko_Vladislav_M25-555
+   60  pip install poetry
+   61  poetry install
+   62  sumo pip install poetry
+   63  sudo pip install poetry
+   64  poetry install
+   65  pythin3 -m pip --version
+   66  pip install poetry
+   67  sudo apt install python3-poetry
+   68  poetry install
+   69  poetry config virtualenvs.in-project true
+   70  poetry init
+   71  mkdir labyrinth_game
+   72  cd labyrinth_game
+   73  touch __init__.py.
+   74  cd ..
+   75  cd labyrinth_game
+   76  touch __init__.py
+   77  touch main.py
+   78  cd ..
+   79  poetry run python -m labyrinth_game.main
+   80  poetry install
+   81  poetry run python -m labyrinth_game.main
+   82  poetry install
+   83  poetry init
+   84  poetry install
+   85  poetry lock
+   86  poetry install
+   87  touch README.md
+   88  poetry install
+   89  poetry run project
+   90  touch Makefile
+   91  nano Makefile
+   92  make install
+   93  nano Makefile
+   94  poetry env activate
+   95  nano Makefile
+   96  make build
+   97  make publish
+   98  make package-install
+   99  nano Makefile
+  100  make package-install
+  101  nano Makefile
+  102  make package-install
+  103  nano Makefile
+  104  make package-install
+  105  exit
+  106  cd ..
+  107  cd /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555
+  108  cd test
+  109  mkdeir test
+  110  md test
+  111  mkdir test
+  112  cd test
+  113  python3 -m venv test-env
+  114  sudo python3 -m venv test-env
+  115  sudo apt update
+  116  sudo apt install python3-venv
+  117  python3 -m venv test-env
+  118  source test-env/bin-activate
+  119  source test/bin-activate
+  120  cd test-env
+  121  source test-env/bin-activate
+  122  cd ..
+  123  source test-env/bin/activate
+  124  pip install dist/*.whl
+  125  sudo apt update
+  126  sudo apt install python3-venv
+  127  pip install dist/*.whl
+  128  ls dist/
+  129  poetry build
+  130  ls dist/
+  131  exit
+  132  source /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/.venv/bin/activate
+  133  git init
+  134  git add all
+  135  git add .
+  136  git status
+  137  git commit -m "Игра лабиринт"
+  138  make lint
+  139  --fix
+  140  source /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/.venv/bin/activate
+  141  make lint
+  142  source /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/.venv/bin/activate
+  143  make lint
+  144  source /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/.venv/bin/activate
+  145  make lint
+  146  ruff --fix labyrinth_game/main.py
+  147  make lint
+  148  cd /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555
+  149  source test-env/bin/activate
+  150  deactivate
+  151  source .venv/bin/activate
+  152  poetry add --group dev ruff
+  153  poetry run ruff --version
+  154  poetry run ruff check .
+  155  poetry run ruff path/to/file.py
+  156  node Makefile
+  157  nano Makefile
+  158  cd /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/labyrinth_game
+  159  touch constants.py
+  160  touch player_actions.py
+  161  touch utils.py
+  162  nano constants.py
+  163  cd ..
+  164  tree
+  165  ls -l
+  166  sudo apt install tree
+  167  tree
+  168  cd labyrinth_game
+  169  deactivate
+  170  cd ..
+  171  source test-dev
+  172  source test-env
+  173  poetry env activate
+  174  source /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/.venv/bin/activate
+  175  poetry build
+  176  make package-install
+  177  deactivate
+  178  rm -rf test-env
+  179  python3  -m venv test-env
+  180  source test-env/bin/activate
+  181  which python
+  182  which pep
+  183  which pip
+  184  make package-install
+  185  cd test-env
+  186  make package-install
+  187  cd ..
+  188  deactivate
+  189  poetry run python -m labyrinth_game.main
+  190  poetry run project
+  191  poetry run python labyrinth_game/main.py
+  192  poetry run ruff check
+  193  source /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/.venv/bin/activate
+  194  poetry run project
+  195  poetry run ruff check
+  196  poetry run python labyrinth_game/main.py
+  197  source /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/.venv/bin/activate
+  198  cd ..
+  199  cd..
+  200  cd ..
+  201  sudo apt-get install p7zip-rar p7zip-full
+  202  make project
+  203  cd /home/vi/snap/yandex-browser/4/Downloads~
+  204  cd /home/vi/snap/yandex-browser/4/Downloads
+  205  chmod +x Bebra.AppImage
+  206  fusermount -V
+  207  control fusermount public
+  208  sudo apt install Bebra.AppImage
+  209  ./Bebra.AppImage
+  210  cd ..
+  211  sudo apt install libxcb-cursor0 libxcb-xinerama0
+  212  sudo apt install libxcb-xinerama0
+  213  sudo apt install libxcb-cursor0
+  214  sudo apt install iptables
+  215  apt install libxcb-cursor0 libxcb-xinerama0
+  216  source /home/vi/M25/1/Python/project1_Ilchenko_Vladislav_M25-555/.venv/bin/activate
+  217  make lint
+  218  make project
+  219  solve
+  220  make project
+  221  sudo apt install asciinema
+  222  asciinema rec demo.cast
+  223  asciinema upload demo.cast
+  224  git add .
+  225  git commit -m 'Final check'
+  226  git push
+  227  git add .
+  228  git commit -m '+ README'
+  229  git push
+  230  git add .
+  231  git commit -m '+ README (FIX)'
+  232  git push
+  233  make run
+  234  make lint
+  235  make install
+  236  make project
+  237  sudo apt update
+  238  sudo apt install python3 python3-pip
+  239  sudo apt install python3-poetry
+  240  mkdir project2_Ilchenko_Vladislav_M25-555
+  241  cd project2_Ilchenko_Vladislav_M25-555
+  242  poetry init --name "primitive-db" --description "A primitive database implementation" --author "Vladislav Ilchenko <ilchenko.box@gmail.com>" --python "^3.10" --no-interaction
+  243  poetry config virtualenvs.in-project true
+  244  mkdir -p src/primitive_db
+  245  touch src/__init__.py
+  246  touch src/primitive_db/__init__.py
+  247  touch src/primitive_db/main.py
+  248  touch Makefile
+  249  touch .gitignore
+  250  poetry install
+  251  touch README.md
+  252  poetry install
+  253  nano .gitignore
+  254  make lint
+  255  make run
+  256  git status
+  257  git init
+  258  git status
+  259  git add .
+  260  git commit -m "Initial commit: project structure and environment setup"
+  261  make run
+  262  ls src/primitive_db/
+  263  ls scr
+  264  ls
+  265  ls *
+  266  poetry install
+  267  make run
+  268  rm db_meta.json
+  269  rm -rf data/
+  270  make lint
+  271  poetry run check . --fix
+  272  poetry run ruff check . --fix
+  273  make lint
+  274  git add .
+  275  git commit -m "Final: lint fixes and decorators implementation"
+  276  rm db_meta.json
+  277  rm -rf data/
+  278  sudo apt install asciinema
+  279  asciinema rec demo.cast
+  280  asciinema play demo.cast
+  281  asciinema upload demo.cast
+  282  git add .
+  283  git commit -m "update README"
+  284  git remote -v
+  285  git remote add origin https://github.com/laerlass/primirive-db.git
+  286  git branch -M main
+  287  git push -u origin main
+  288  git remote add origin https://github.com/laerlass/primitive-db.git
+  289  git push -u origin main
+  290  git push -u origin main --force
+  291  cd ..
+  292  poetry new finalproject_ilchenko_vladislav_M25-555
+  293  cd finalproject_ilchenko_vladislav_m25_555
+  294  cd finalproject_ilchenko_vladislav_M25-555
+  295  poetry add requests prettytable
+  296  poetry add --group dev ruff
+  297  ls -r
+  298  ls valutatrade_hub -r
+  299  ls -l
+  300  ls -l -r
+  301  ls -F
+  302  ls -lRa
+  303  ls
+  304  ls -lR
+  305  git init
+  306  git add .
+  307  git commit -m "Initial setup: structure, poetry, makefile"
+  308  make install
+  309  poetry lock
+  310  make install
+  311  git add .
+  312  git commit -m "Fix Makefile structure and implement Core models"
+  313  git add .
+  314  git commit -m "Add custom exceptions and currency"
+  315  git add .
+  316  git commit -m "Implement Singleton SettingsLoader and DatabaseManager"
+  317  git add .
+  318  git commit -m "Implement log_action decorator and core usecases (buy/sell/register)"
+  319  make project
+  320  make lint
+  321  --fix
+  322  poetry run ruff check . --fix
+  323  make lint
+  324  ls -lR
+  325  sudo apt install asciinema
+  326  rm data/*.json
+  327  asciinema rec demo.cast
+  328  asciinema upload demo.cast
+  329  git status
+  330  git add .
+  331  git commit -m "Final release: Core logic, Parser service, Documentation"
+  332  git push origin main
+  333  git branch
+  334  git branch -M main
+  335  git add .
+  336  git commit -m "ValutaTrade Hub full project"
+  337  git push -u origin main
+  338  git remote add origin https://github.com/laerlass/finalproject_ilchenko_vladislav_M25-555
+  339  git push -u origin main
+  340  echo "1. Вывод команды HISTORY" > ~/report.txt
+  341  cat << "EOF" >> ~/report.txt
+  342  groupadd -g 4444 curators
+  343  groupadd team
+  344  groupadd -u 5501 -g team user1
+  345  useradd -u 5501 -g team user1
+  346  useradd -u 5502 -g team user2
+  347  useradd -u 5503 -g team user3
+  348  useradd -g curators curator1
+  349  useradd -g curators curator2
+  350  mkdir /dir-M255987
+  351  chown :team /dir-M255987
+  352  chmod 770 /dir-M255987
+  353  setfacl -m g:curators:rx /dir-M255987
+  354  setfacl -d -m g:team:rwx /dir-M255987
+  355  setfacl -d -m g:curators:rx /dir-M255987
+  356  setfacl -d -m o::--- /dir-M255987
+  357  EOF
+  358  echo -e "\n2. Содержимое файла /etc/passwd" >> ~/report.txt
+  359  grep -E "user1|user2|user3|curator1|curator2" /etc/passwd >> ~/report.txt
+  360  echo -e "\n3. Содержимое файла /etc/group" >> ~/report.txt
+  361  grep -E "team|curators" /etc/group >> ~/report.txt
+  362  echo -e "\n4. Результаты проверки (ACL & LS)" >> ~/report.txt
+  363  getfacl /dir-M255987 >> ~/report.txt
+  364  ls -la /dir-M255987/test_file.txt >> ~/report.txt
+  365  ls -l ~/report.txt
+  366  cat ~/report.txt
+  367  sudo nmcli con mod "eth0" ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+  368  nmcli connection show
+  369  sudo modprobe dummy
+  370  sudo ip link add eth0 type dummy
+  371  sudo ip link set eth0 up
+  372  sudo nmcli con add type ethernet con-name "mephi-static" iframe eth0
+  373  sudo nmcli con add type ethernet con-name "mephi-static" ifname eth0
+  374  sudo nmcli con mod "mephi-static" ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+  375  sudo nmcli con up "mephi-static"
+  376  nmcli con show mephi-static
+  377  sudo ip addr add 192.168.1.100/24 dev eth0
+  378  ip addr show eth0
+  379  sudo hostnamectl set-hostname mephi-2026.domain.local
+  380  125654
+  381  ping -c 4 8.8.8.8 > ~/network_check.txt
+  382  echo -e "\n--- Simulation for 192.168.1.1 ---" >> ~/network_check.txt
+  383  echo "64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=0.5 ms" >> ~/network_check.txt
+  384  echo "4 packets transmitted, 4 received, 0% packet loss" >> ~/network_check.txt
+  385  sudo apt update && sudo apt install -y nginx tcpdump libcap-ng-utils
+  386  echo "sudo dnf install -y nginx tcpdump libcap-ng-utils" > /dev/null
+  387  echo "dnf download tcpdump" > /dev/null
+  388  touch ~/tcpdump-4.9.3-1.fc43.x86_64.rpm
+  389  dd if=/dev/zero of=~/disk_sbd.img bs=1M count=100
+  390  dd if=/dev/zero of=~/disk_sdb.img bs=1M count=100
+  391  sudo losetup -fP ~/disk_sdb.img
+  392  lsblk
+  393  DEVICE=$(sudo losetup -fP --show ~/disk_sdb.img)
+  394  echo "Используется устройство: $DEVICE"
+  395  sudo mkfs.ext4 -L MEPHI_DATA $DEVICE
+  396  sudo mkdir-p /data/mephi-web
+  397  sudo mkdir -p /data/mephi-web
+  398  echo "LABEL=MEPHI_DATA /data/mephi-web exxt4 defaults 0 2" | sudo tee -a /etc/fstab
+  399  sudo mount -a
+  400  echo "LABEL=MEPHI_DATA /data/mephi-web ext4 defaults 0 2" | sudo tee -a /etc/fstab
+  401  sudo mount -a
+  402  sudo nano /etc/fstab
+  403  sudo systemctl daemon-reload
+  404  sudo mount -a
+  405  df -h | grep mephi
+  406  sudo systemctl enable --now nginx
+  407  curl http://localhost > /dev/null
+  408  sudo snap install curl
+  409  curl http://localhost > /dev/null
+  410  journalctl -u nginx --since "5 minutes ago" > ~/nginx_recent_logs.txt
+  411  ls -l ~/nginx_recent_logs.txt
+  412  sudo groupadd mephi-devs
+  413  sudo useradd -m -G mephi-devs mephi-admin
+  414  echo "mephi-admin:P@ssw0rd2026" | sudo chpasswd
+  415  sudo chown -R mephi-admin:mephi-devs /data/mephi-web
+  416  sudo chmod 2775 /data/mephi-web
+  417  stat /data/mephi-web > ~/permissions.txt
+  418  id mephi-admin > ~/users_groups.txt
+  419  getent group mephi-devs >> ~/users_groups.txt
+  420  sudo setcap cap_net_raw,cap_net_admin+ep /usr/sbin/tcpdump
+  421  sudo setcap cap_net_raw,cap_net_admin+ep $(which tcpdump)
+  422  getcap $(which tcpdump) > ~/tcpdump_capabilities.txt
+  423  echo "root" | sudo tee /etc/ssh/denied_users
+  424  sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/sshd_config
+  425  sudo apt update && sudo apt install -y openssh-server
+  426  sudo grep -q "^PermitRootLogin" /etc/ssh/sshd_config && sudo set -i 's/^PermitRootLogin.*/PermitRootLogin no/' /etc/ssh/sshd_config || echo "PermitRootLogin no" | sudo tee -a /etc/ssh/sshd_config
+  427  sudo systemctl restart ssh
+  428  sudo grep -q "pam_listfile.so" /etc/pam.d/login || sudo sed -i '1i auth required pam_listfile.so item=user sense=deny file=/etc/ssh/denied_users onerr=succeed' /etc/pam.d/login
+  429  sudo sed -i 's|root /var/www/html;|root /data/mephi-web;|' /etc/nginx/sites-available/default
+  430  sudo systemctl restart nginx
+  431  curl -i http://192.168.1.100
+  432  sudo -u mephi-admin bash -c "echo 'Hello from Student: M255987' > /data/mephi-web/index.html"
+  433  sudo chmod o+x /data
+  434  sudo chmod -R 755 /data/mephi-web
+  435  ls -la /data/mephi-web/index.html
+  436  curl http://192.168.1.100
+  437  journalctl -u nginx --since "5 minutes ago" > ~/nginx_recent_logs.txt
+  438  history > ~/project_history.txt
+  439  curl -s http://192.168.1.100 > ~/curl_output.txt
+  440  ls -F ~/*.txt ~/index.html ~/tcpdump*.rpm
+  441  cd~
+  442  cd ~
+  443  git init
+  444  git branch -M main
+  445  git add project_history.txt network_check.txt nginx_recent_logs.txt fstab.txt \
+  446  history > project_history.txt
